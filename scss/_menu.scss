@@ -10,8 +10,8 @@
   .btn-line {
     width: 28px;
     height: 3px;
-    margin: 0 0 5px 0;
-    background: #fff;
+    margin: 0 0 5px 0; 
+    background: set-text-color($primary-color); 
     @include easeOut;
   }
 
@@ -115,11 +115,11 @@
   .nav-link {
     display: inline-block;
     position: relative;
-    font-size: 30px;
+    font-size: 30p x;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
